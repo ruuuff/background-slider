@@ -6,7 +6,7 @@ const rightBtn = document.getElementById('right')
 // Utilizado como index das imagens
 let activeSlide = 0
 
-// Adiciona um ouvidor de eventos do tipo "click" em "left", que executa uma função
+// Adiciona um ouvidor de eventos do tipo "click" em "leftBtn", que executa uma função
 leftBtn.addEventListener('click', () => {
   // Decrementa "activeSlide"
   activeSlide--
